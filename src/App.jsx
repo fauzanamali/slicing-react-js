@@ -31,11 +31,11 @@
 // export default App;
 
 import { useState } from "react";
-import Header from "./components/Header";
-import Page from "./components/Page";
-import Footer from "./components/Footer"; 
-import Certificates from "./components/Certificates"; 
-import Gallery from "./components/Gallery";   
+import Navbar from "./components/Navbar/Navbar";
+import Page from "./components/Page/Page";
+import Footer from "./components/Footer/Footer"; 
+import Certificates from "./components/Certificates/Certificates"; 
+import Gallery from "./components/Gallery/Gallery";   
 
 const App = () => {
   const [nama, setNama] = useState("");
@@ -46,7 +46,7 @@ const App = () => {
 
   return (
     <div>
-      <Header />
+      <Navbar />
       <Page />
       <Certificates />
       <Gallery />      

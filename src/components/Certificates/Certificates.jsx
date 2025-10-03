@@ -1,6 +1,7 @@
 import { useState } from "react";
-import image from "../assets/image.png";   
-import java from "../assets/javascript.png";   
+import image from "../../assets/image.png";
+import java from "../../assets/javascript.png";
+import Ai from "../../assets/ai.png";
 
 const Certificates = () => {
   return (
@@ -23,9 +24,9 @@ const Certificates = () => {
         </div>
 
         <div className="bg-white text-black shadow-lg rounded-xl overflow-hidden hover:scale-105 transition">
-          <img src={java} alt="Tailwind CSS" className="w-full h-48 object-contain" />
+          <img src={Ai} alt="Tailwind CSS" className="w-full h-48 object-contain" />
           <div className="p-4 text-center">
-            <h3 className="font-semibold">Tailwind CSS</h3>
+            <h3 className="font-semibold">Dasar AI</h3>
           </div>
         </div>
 

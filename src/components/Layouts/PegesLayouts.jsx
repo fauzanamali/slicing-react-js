@@ -1,6 +1,6 @@
-import Footer from "../Footer";
-import Page from "../Page";
-import Header from "../Header";
+import Footer from "../Footer/Footer";
+import Page from "../Page/Page";
+import Header from "../Navbar";
 
 const PagesLayouts = (props) => 
     {
@@ -8,7 +8,6 @@ const PagesLayouts = (props) =>
             <>
                 <Header />
                 {props.children}
-                <Page />
                 <Footer />
                 
             </>

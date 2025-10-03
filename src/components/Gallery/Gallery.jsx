@@ -1,7 +1,7 @@
-import naga from '../assets/naga.jpg';
-import naga2 from '../assets/naga2.jpg';
-import raja from '../assets/raja.jpg';
-import orang from '../assets/orang.jpg';
+import naga from "../../assets/naga.jpg";
+import naga2 from "../../assets/naga2.jpg";
+import raja from "../../assets/raja.jpg";
+import orang from '../../assets/orang.jpg';
 
 
 
